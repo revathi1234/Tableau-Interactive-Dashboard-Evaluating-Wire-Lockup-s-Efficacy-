@@ -1,13 +1,30 @@
+# Project Report: Evaluating Wire Lockup's Efficacy using Tableau Dashboard
 
-Investigating the Efficacy of Wire Lockup project using Tableau Dashboard: An In-depth analysis of Success Metrics (Sales impact, Shrink impact, Shrink ROI) and Monitor Metrics (LTSA, Sales Transactions) during pre and post installation periods in Test vs Control Stores. 
+## Objective:
+The project aimed to conduct a comprehensive analysis of success and monitor metrics in test and control stores pre and post the implementation of wire cages. The objective was to assess the impact of wire cages on sales, shrink, and other key performance indicators.
 
+## Methodology:
+Leveraging Tableau Dashboard integrated with Google BigQuery, advanced SQL queries were employed to collect and analyze metrics in test (wire cages installed) versus control stores (without wire cages) during both pre and post-installation phases.
 
-Goal: To provide valuable insights and actionable recommendations to the asset protection team through data analysis and visualization utilizing a tableau dashboard, helping them make informed decisions.
+## Key Findings:
 
-Comparison: Analyze success metrics and monitor metrics between test stores (with wire cages) and control stores (without wire cages).
+Sales Impact: Post-installation, test stores experienced a slight decrease in sales compared to control stores.
+Shrink Impact: Wire cages notably reduced shrink in test stores post-installation.
+Shrink ROI: Despite reduced sales, wire cages resulted in a positive Shrink ROI, indicating decreased losses from theft.
+Sales Transactions: Corresponding with the sales decline, the number of sales transactions decreased in test stores post-installation.
+LTSA: The LTSA metric showed a decline in test stores post-installation compared to control stores.
 
-Timeframe: Examine metrics during the pre-installation and post-installation periods to assess the impact of wire cages on store performance and security.
+## Recommendations:
 
-Solution: The solution involves building a dynamic and interactive Tableau dashboard by integrating data from Google BigQuery using advanced SQL queries. This synergy enables the visualization and analysis of success and monitor metrics.
+Expand Pilot Program: Consider extending wire lockup programs based on observed shrink reduction and positive ROI in test stores.
+Merchant Collaboration: Share wire cage project analysis with merchants to align analytical insights with merchandising strategies.
+Enhance Customer Experience: Address customer concerns regarding limited product accessibility within wire cages for an improved shopping experience.
+Associate Training: Conduct training sessions for store associates to assist customers effectively within wire cage areas.
 
+## Challenges Faced:
+
+Complex ETL Process: Handling substantial datasets in Google BigQuery required intricate SQL queries and precise table joins.
+Test-Control Store Logic: Developing balanced logic for meaningful comparisons between test and control stores demanded meticulous analysis.
+Transformation Granularity: Ensuring data quality, handling missing values, and standardizing diverse data formats were key challenges in data transformation.
+This detailed analysis provides actionable insights for the asset protection team, supporting informed decision-making and potential strategies for future implementations.
 
